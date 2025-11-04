@@ -5,6 +5,7 @@ export interface Service {
   image: string;
   description: string[];
   options: number;
+  category: string;
 }
 
 export const services: Service[] = [
@@ -14,10 +15,9 @@ export const services: Service[] = [
     price: 299,
     image:
       "https://media.istockphoto.com/id/1437896577/photo/air-conditioner-technician-repairing-central-air-conditioning-system-with-outdoor-tools.jpg?s=612x612&w=0&k=20&c=Vt5lo-He1rM3_d-G5GHaFVYD0lyMGAtsUccuwNaCe08=",
-    description: [
-      "Complete AC inspection to identify issues before repair",
-    ],
+    description: ["Complete AC inspection to identify issues before repair"],
     options: 2,
+    category: "Repair & Service",
   },
   {
     id: "service",
@@ -29,6 +29,7 @@ export const services: Service[] = [
       "Filter and coil cleaning to improve air quality, drain cleaning to prevent leaks, anti-rust and performance repairs",
     ],
     options: 3,
+    category: "Repair & Service",
   },
   {
     id: "gas-refill",
@@ -40,6 +41,7 @@ export const services: Service[] = [
       "Detection and repair of refrigerant leaks, sealing pipes, full gas refill for efficiency, and AC system inspection",
     ],
     options: 2,
+    category: "Gas Refill",
   },
   {
     id: "installation",
@@ -51,9 +53,10 @@ export const services: Service[] = [
       "Professional installation of new AC units with proper mounting and connection",
     ],
     options: 2,
+    category: "Install & Uninstall",
   },
   {
-    id: "Uninstallation",
+    id: "uninstallation",
     title: "AC Uninstallation",
     price: 500,
     image:
@@ -62,9 +65,10 @@ export const services: Service[] = [
       "Professional Uninstallation of AC units with proper mounting and connection",
     ],
     options: 2,
+    category: "Install & Uninstall",
   },
   {
-    id: "Comprehensive",
+    id: "comprehensive",
     title: "Comprehensive Service",
     price: 3000,
     image:
@@ -73,9 +77,10 @@ export const services: Service[] = [
       "Enjoy complete peace of mind! This plan covers all services, gas refills, and parts replacement for a full year — no extra charges for repairs.",
     ],
     options: 2,
+    category: "Comprehensive & Non-Comprehensive",
   },
   {
-    id: "Non-Comprehensive",
+    id: "non-comprehensive",
     title: "Non-Comprehensive Service",
     price: 2500,
     image:
@@ -84,5 +89,6 @@ export const services: Service[] = [
       "Ideal for basic maintenance. Get regular AC servicing, but gas refilling and parts will be charged separately if needed.",
     ],
     options: 2,
+    category: "Comprehensive & Non-Comprehensive",
   },
 ];
