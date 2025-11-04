@@ -14,7 +14,7 @@ export function ShopLocation() {
               <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-lg p-4 md:p-6 mb-4 md:mb-6">
                 <div className="flex items-center gap-3 md:gap-4">
                     <img 
-                      src="src\assets\owner1.png" 
+                      src="\assets\owner1.png" 
                       alt="User" 
                       className="w-20 h-20 md:w-14 md:h-14 object-cover rounded-full border border-black-300"
                     />
