@@ -1,7 +1,5 @@
 import { Button } from "./ui/button";
 
-
-
 export function Hero() {
   return (
     <section className="bg-white py-10 md:py-16">
@@ -12,7 +10,7 @@ export function Hero() {
           {/* Image Section */}
           <div className="flex justify-center order-2 lg:order-1 pb-8 md:pb-20">
             <img 
-              src="src/assets/Ravindra.png"
+              src="/assets/Ravindra.png"
               alt="AC Service Illustration"
               className="w-[85%] sm:w-[80%] md:w-[90%] lg:w-[100%] max-w-lg md:max-w-xl lg:max-w-2xl"
             />
@@ -33,7 +31,6 @@ export function Hero() {
               GET STARTED
             </Button>
           </div>
-
         </div>
       </div>
     </section>
